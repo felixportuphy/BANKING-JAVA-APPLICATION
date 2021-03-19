@@ -24,12 +24,13 @@ public class BranchTest {
 
     @Test
     public void getName() {
-        branch_1.getCustomer();
+        assertEquals("Accra", branch_1.getName());
     }
 
     @Test
     public void getCustomer() {
-        branch_1.getCustomer();
+
+        assertEquals("Mike",branch_1.getCustomer());
     }
 
     @Test

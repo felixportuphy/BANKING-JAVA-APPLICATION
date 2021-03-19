@@ -20,16 +20,18 @@ public class CustomerTest {
 
     @Test
     public void getName() {
-        customer_1.getName();
+        assertEquals("Mike",customer_1.getName());
     }
 
     @Test
     public void getTransactions() {
-        customer_1.getTransactions();
+
+        assertEquals(50.0, (double)customer_1.getTransactions().get(0), 0.0);
     }
 
     @Test
     public void addTransactions() {
-       customer_2.addTransactions(150);
+        customer_1.addTransactions(50);
+        assertEquals(2, customer_1.getTransactions().size());
     }
 }

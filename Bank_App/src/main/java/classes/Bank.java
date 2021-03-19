@@ -73,7 +73,7 @@ public class Bank implements IBank {
               if(printTransaction) {
                   for (Customer customer : branch.getCustomer()) {
                       customerCount++;
-                      System.out.printf("Customer[%d] %s\n",customerCount, customer.getName() );
+                      System.out.printf("Customer %s[%d]\n",customer.getName(),customerCount );
                       System.out.println("Transaction(s)");
                       int transactionCount = 0;
                       for (double transaction : customer.getTransactions()) {
