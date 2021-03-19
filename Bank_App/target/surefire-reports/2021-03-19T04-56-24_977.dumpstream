@@ -1,0 +1,4 @@
+# Created at 2021-03-19T04:56:45.247
+Boot Manifest-JAR contains absolute paths in classpath 'G:\My Drive\AmaliTech gGmbH\Mini-Project\BANKING-JAVA-APPLICATION\Bank_App\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
